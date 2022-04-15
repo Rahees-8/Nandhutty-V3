@@ -175,10 +175,28 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `      🔮 ɴᴀɴᴅʜᴜᴛᴛʏ ᴠ3 🔮\n\╭─❑\n\│✅ Version: v3 \n\│✅ Library: Baileys\n\│✅ Runtime: ${uptime} \n\╰❑\n\╭─⭐ 「 INFO USER 」\n\│ 👤 Name: ${name} \n\│ 🔍 Total Features : 100+\n\│ ⚠️ Limit: ${limit} \n\│ 🗓️ Date: ${date} \n\│ 🔰 Exp: ${exp} \n\│ 💎 Level: ${level} \n\│ 🔮 Role: ${role} \n\│ 📟 Storage: 106/128 Gb \n\╰⭐\n\╭─ ❑「 INFORMATION 」❑──\n\│ This bot is still in testing stage\n\│ if there is a bug \ error please\n\│ report it to the owner\n\│\n\╰❑`.trim(),
+          "title": ` 〔 ┌─────❲ *❀ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝𝙍𝘼𝙃𝙀𝙀𝙎࿐* ❳
+┊
+└─────────────────❋ཻུ۪۪⸙
+        
+        ╔╗╔╗╔══╗╔══╗
+        ║╚╝║║╔╗║╚║║╝
+        ║╔╗║║╠╣║╔║║╗
+        ╚╝╚╝╚╝╚╝╚══╝
+
+┌─────❲ ᴀʙᴏᴜᴛ ❳
+┊☞  Oi ${ucapan()}
+┊☞ 👤 *NAME* : ${name}
+┊☞ 🧭 *TIME* : ${time},
+┊☞ 💫 *WEEK* : ${week},
+┊☞ ✅ *DATE* : ${date},
+┊☞ 💝 *OWNER* : 𝙍𝘼𝙃𝙀𝙀𝙎
+┊☞ 🖌️ *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
+┊☞ ☮️ *BOT NAME* : ❀ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝𝙍𝘼𝙃𝙀𝙀𝙎࿐
+└─────────────────⸙ \n\ ______`
           "description": "ᴅᴏɴᴛ sᴘᴀᴍ",
           "buttonText": "Click Here",
-          "footerText": "ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴀᴊᴍᴀʟ-ᴀᴄʜᴜ",
+          "footerText": "ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ʀᴀʜᴇᴇꜱ",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
